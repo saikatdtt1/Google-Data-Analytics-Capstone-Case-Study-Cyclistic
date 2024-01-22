@@ -81,6 +81,9 @@ Making separate data with all stations details
 
 Separating Day, Hour, Minute and Second
 
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/004610a9-d0a1-4901-a4ac-4e5fc6936ed2)
+
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/d3322316-387d-46a1-8942-038873d17c76)
 
 # Data Analysis
