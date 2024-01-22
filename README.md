@@ -1,5 +1,5 @@
 # Google-Data-Analytics-Capstone-Case-Study-Cyclistic
-In this case study, I perfomed many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+In this case study, I perfomed many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I followed the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 I have performed Data Combining, Data Cleaning and Data Exploration using Python. I haved used Power BI for Data Analysis and Vizualization.
 # Background
 Cyclistic
