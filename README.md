@@ -134,6 +134,7 @@ Separating Day, Hour, Minute and Second
 
 # Data Analysis
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
+
 __Yearly Analysis:__
 ![Year](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/5fe81f52-19d2-463a-9fa0-ac5c45990532)
 __Seasional Analysis:__
@@ -144,19 +145,26 @@ __Weekly Analysis:__
 ![Week](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/c94734da-16c0-4877-a3df-57b393a828bb)
 __Daily Analysis:__
 ![Day](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/80a44e29-b2b4-4f6c-b1aa-3447ed42df22)
+
 __Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.
+
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.
+
 __Hours of the Day:__ The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 8 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.
 These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in spring and summer season, so they might be doing so for recreation purposes.
+
 __Summary:__
+  
   __Casual:__ 
   1. Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.
   2. Travel 2 times longer but less frequently than members.
+  
   __Member:__
   1. Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.
   2. Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
 # Act
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
+
 __Recommendations:__
 1. Annual membership could be included with hourly benefits.
 2. Casual members could be attracted by making Annual benefit only for weekends.
