@@ -67,9 +67,12 @@ Checking unique values for eleminating duplicate rows
 
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/21c8dffd-b149-4db9-94cc-a7853f478c82)
 
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/ae9e3fdc-365b-476e-8111-e00b6b92a614)
+
+
 Converting into categories for reducing file size
 
-![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/57c3c0d1-3b02-4129-a62b-dfb802833e77)
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/5882f5c6-5fd1-436e-a030-cb0529a862f8)
 
 Making separate data with all riding details
 
