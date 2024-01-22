@@ -43,87 +43,23 @@ A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inabi
 I used Python for Data Combining, Data Exporation and Data Cleaning. After that i splited Total data into two files. One contains all riding details and other one contains all station details making ride_id primary in both files. 
 
 # Data Combining
-file_list = [r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Jan 2023/202301-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Feb 2023/202302-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\March 2023/202303-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\April 2023/202304-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\May 2023/202305-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\June 2023/202306-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\July 2023/202307-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Aug 2023/202308-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Sep 2023/202309-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Oct 2023/202310-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Nov 2023/202311-divvy-tripdata.csv',
-            r'C:\Users\Saikat\Desktop\BA Project\Cyclistic\Dec 2023/202312-divvy-tripdata.csv']
-files = pd.DataFrame()
-for file in file_list:
-    current = pd.read_csv(file)
-    files = pd.concat([files, current], ignore_index = True)
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/dd9108ec-05ad-4116-8386-19f91b885dfb)
+
 # Data Eploration
-Converting into exact data types:
-ride_id                       object
-rideable_type                 object
-started_at            datetime64[ns]
-ended_at              datetime64[ns]
-start_station_name            object
-start_station_id              object
-end_station_name              object
-end_station_id                object
-start_lat                    float64
-start_lng                    float64
-end_lat                      float64
-end_lng                      float64
-member_casual                 object
-dtype: object
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/6cade577-ec2f-49f5-8bd6-59a044a7f30a)
+
+
 # Data Cleaning
+Coverting dates into datetime data type
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/84683ed4-0fd5-45aa-abb7-f1142926c72c)
+
+
 Checking unique values for eleminating duplicate rows
-ride_id               5719877
-rideable_type               3
-started_at            4823909
-ended_at              4835702
-start_station_name       1592
-start_station_id         1516
-end_station_name         1597
-end_station_id           1520
-start_lat              789702
-start_lng              748738
-end_lat                 13884
-end_lng                 14002
-member_casual               2
-dtype: int64
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/21c8dffd-b149-4db9-94cc-a7853f478c82)
+
 Converting into categories for reducing file size
-Column              Dtype         
----  ------              -----         
- 0   ride_id             object        
- 1   rideable_type       category      
- 2   started_at          datetime64[ns]
- 3   ended_at            datetime64[ns]
- 4   start_station_name  category      
- 5   start_station_id    category      
- 6   end_station_name    category      
- 7   end_station_id      category      
- 8   start_lat           float64       
- 9   start_lng           float64       
- 10  end_lat             float64       
- 11  end_lng             float64       
- 12  member_casual       category      
-dtypes: category(6), datetime64[ns](2), float64(4), object(1)
-memory usage: 360.3+ MB
-Checking null values
-ride_id                    0
-rideable_type              0
-started_at                 0
-ended_at                   0
-start_station_name    875716
-start_station_id      875848
-end_station_name      929202
-end_station_id        929343
-start_lat                  0
-start_lng                  0
-end_lat                 6990
-end_lng                 6990
-member_casual              0
-dtype: int64
+![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/57c3c0d1-3b02-4129-a62b-dfb802833e77)
+
 Making separate data with all riding details
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/bf6f778a-122b-4a8b-9aa4-32baae6d14e8)
 
