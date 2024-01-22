@@ -41,8 +41,11 @@ Data Organization
 There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 
 Process
+
 Python is used to combine the various datasets into one dataset and clean it.
+
 Reason:
+
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like Python that supports huge volumes of data.
 
 I used Python for Data Combining, Data Exporation and Data Cleaning. After that i splited Total data into two files. One contains all riding details and other one contains all station details making ride_id primary in both files. 
