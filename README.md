@@ -51,21 +51,28 @@ I used Python for Data Combining, Data Exporation and Data Cleaning. After that 
 
 # Data Cleaning
 Coverting dates into datetime data type
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/84683ed4-0fd5-45aa-abb7-f1142926c72c)
 
 
 Checking unique values for eleminating duplicate rows
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/21c8dffd-b149-4db9-94cc-a7853f478c82)
 
 Converting into categories for reducing file size
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/57c3c0d1-3b02-4129-a62b-dfb802833e77)
 
 Making separate data with all riding details
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/bf6f778a-122b-4a8b-9aa4-32baae6d14e8)
 
 Making separate data with all stations details
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/9a1b7def-f121-4658-a1a3-064e40e8e0fa)
+
 Separating Day, Hour, Minute and Second
+
 ![image](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/d3322316-387d-46a1-8942-038873d17c76)
 
 # Data Analysis
