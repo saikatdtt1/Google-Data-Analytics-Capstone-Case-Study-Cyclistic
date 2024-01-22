@@ -111,6 +111,6 @@ After identifying the differences between casual and member riders, marketing st
 __Recommendations:__
 1. Annual membership could be included with hourly benefits.
 2. Casual members could be attracted by making Annual benefit only for weekends.
-3. Some special benefits could be included in Summer seasions for attacting more Annual members.
+3. Some special benefits could be included in Summer seasions.
 
 
