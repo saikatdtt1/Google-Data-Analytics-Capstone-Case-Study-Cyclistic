@@ -142,7 +142,7 @@ Monthly Analysis
 ![Month](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/db02ce8d-4fa4-40b3-9c80-71410760bf13)
 Weekly Analysis
 ![Week](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/c94734da-16c0-4877-a3df-57b393a828bb)
-Dayly Analysis
+Daily Analysis
 ![Day](https://github.com/saikatdtt1/Google-Data-Analytics-Capstone-Case-Study-Cyclistic/assets/144656040/80a44e29-b2b4-4f6c-b1aa-3447ed42df22)
 Months: When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.
 Days of Week: When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.
